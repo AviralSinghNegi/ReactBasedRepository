@@ -19,7 +19,6 @@ export default function App() {
       <OffcanvasNavbar/>
         <Routes>
             <Route path="/" element={<HomePage />}/>
-            <Route path="/reactapp" element={<HomePage />}/>
             <Route path="/about" element={<About />}/>
             <Route path="/services" element={<Services />}/>
             <Route path="/gallery" element={<Gallery />}/>
