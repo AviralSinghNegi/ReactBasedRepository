@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -66,6 +71,14 @@ nav ul li a{
   font-family: 'Poppins';
 }
 
+.offcanvas{
+  --bs-offcanvas-width: 250px;
+  background-color: #e3f2fd;
+}
+
+
+
+
 /* ---------------- */
 
 .logoimg::before{
@@ -90,17 +103,29 @@ nav ul li a{
     margin-left: 10px ;
     margin-right: 10px ;
   }
+  
+}
+@media (max-width: 992px){
   footer{
-    position: fixed;
     bottom: 0;
+    position: absolute;
     width: 100%;
   }
+  #root{
+    min-height: 100vh;
+    position: relative;
+  }
+  .plans{
+    padding-bottom: 150px;
+  }
+
 }
 /* ====================================== */
+/* plans  */
 .plans{
   max-width: 960px;
   margin: auto;
-  margin-bottom: 170px;
+  /* padding-bottom: 150px; */
 }
 @media (max-width: 768px){
   .plans .col{
@@ -108,3 +133,5 @@ nav ul li a{
       padding-left: calc(var(--bs-gutter-x) * 1.2);
   }
 }
+
+/* =================================== */

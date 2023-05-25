@@ -10,6 +10,7 @@ import Plans from './pages/Plans';
 import About from './components/About';
 import Services from './components/Services'
 import Navigationbar from './components/Navigationbar';
+import OffcanvasNavbar from './components/OffcanvasNavbar'
 import Footer from './components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,8 @@ root.render(
   <React.StrictMode>
     
     <BrowserRouter>
-    <Navigationbar/>
+    {/* <Navigationbar/> */}
+    <OffcanvasNavbar/>
     <Routes>
         
           <Route path="/" element={ <App /> }></Route>

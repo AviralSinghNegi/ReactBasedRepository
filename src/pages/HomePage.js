@@ -1,6 +1,4 @@
 import React from 'react'
-import Navigationbar from '../components/Footer';
-import Footer from '../components/Navigationbar';
 
 export default function HomePage() {
   return (
