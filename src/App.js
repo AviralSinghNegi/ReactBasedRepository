@@ -17,7 +17,7 @@ export default function App() {
   return (
     <>
       <OffcanvasNavbar/>
-        <Routes>
+        <Routes >
             <Route path="/" element={<HomePage />}/>
             <Route path="/about" element={<About />}/>
             <Route path="/services" element={<Services />}/>
