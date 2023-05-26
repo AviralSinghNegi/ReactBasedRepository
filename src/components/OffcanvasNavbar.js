@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+
+import { IoMdMailUnread } from "react-icons/io";
+import { AiOutlineWhatsApp } from "react-icons/ai"; 
+import { FaPhoneVolume } from "react-icons/fa";
 export default function OffcanvasNavbar() {
 
     
@@ -52,10 +56,10 @@ export default function OffcanvasNavbar() {
                     <span className="fas fa-phone-volume"></span> Contact
                     </Link>
                     <ul className="dropdown-menu">
-                        <li data-bs-dismiss="offcanvas"><Link className="dropdown-item" to="http://wa.me/7055071650" target="_blank"><i className="fab fa-whatsapp fa-1x" style={{color: "#25d366"}}> WhatsApp</i></Link></li>
-                        <li data-bs-dismiss="offcanvas"><Link className="dropdown-item" to="/" target="_blank"><i className="far fa-envelope-open" style={{color: "#4285f4"}}> Drop an Email</i></Link></li>
+                        <li data-bs-dismiss="offcanvas" ><Link className="dropdown-item" to="http://wa.me/7055071650" target="_blank" ><AiOutlineWhatsApp/> WhatsApp</Link></li>
+                        <li data-bs-dismiss="offcanvas"><Link className="dropdown-item" to="/" target="_blank"><IoMdMailUnread/> Drop an Email</Link></li>
                         {/* <li><hr className="dropdown-divider"/></li> */}
-                        <li data-bs-dismiss="offcanvas"><Link className="dropdown-item" to="tel:+917055071650" target="_blank"><i className='fas fa-phone-volume fa-1x' style={{color: "#E1306C"}}> Give a call</i></Link></li>
+                        <li data-bs-dismiss="offcanvas"><Link className="dropdown-item" to="tel:+917055071650" target="_blank"><FaPhoneVolume/> Give a call</Link></li>
                     </ul>
                     </li>
                     {/* <li className="nav-item">
