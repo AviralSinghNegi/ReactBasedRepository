@@ -1,4 +1,5 @@
 import React from 'react'
+import Badge from '../components/Badge'
 
 export default function Plans() {
   return (
@@ -8,7 +9,7 @@ export default function Plans() {
     <main>
     <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div className="col">
-          <div className="card mb-4 rounded-3 shadow-sm" style={{borderColor: "#0dcaf0;"}}>
+          <div className="card mb-4 rounded-3 shadow-sm" style={{borderColor: "#0dcaf0"}}>
             <div className="card-header py-3" style={{backgroundColor: '#0dcaf0'}}>
               <h4 className="my-0 fw-normal">Basic</h4>
             </div>
@@ -46,7 +47,7 @@ export default function Plans() {
         <div className="col">
           <div className="card mb-4 rounded-3 shadow-sm border-primary">
             <div className="card-header py-3 text-bg-primary border-primary">
-              <h4 className="my-0 fw-normal">Enterprise</h4>
+              <h4 className="my-0 fw-normal">Enterprise </h4>
             </div>
             <div className="card-body">
               <h1 className="card-title pricing-card-title">3000 <i className="fa fa-inr"></i><small className="text-muted fw-light">/person</small></h1>

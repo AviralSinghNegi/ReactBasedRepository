@@ -4,8 +4,7 @@ import { Router, Routes, Route } from "react-router-dom";
 import Gallery from './pages/Gallery';
 import Plans from './pages/Plans';
 import About from './components/About';
-import Services from './components/Services'
-import Navigationbar from './components/Navigationbar';
+import ServicePage from './pages/ServicePage'
 import OffcanvasNavbar from './components/OffcanvasNavbar'
 import Footer from './components/Footer';
 
@@ -20,7 +19,7 @@ export default function App() {
         <Routes >
             <Route path="/" element={<HomePage />}/>
             <Route path="/about" element={<About />}/>
-            <Route path="/services" element={<Services />}/>
+            <Route path="/services" element={<ServicePage />}/>
             <Route path="/gallery" element={<Gallery />}/>
             <Route path="/plans" element={<Plans />}/>
             <Route path="*" element={<p>Page not found!</p>} />

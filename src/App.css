@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -79,6 +79,8 @@ nav ul li a{
 
 
 
+
+
 /* ---------------- */
 
 .logoimg::before{
@@ -90,6 +92,9 @@ nav ul li a{
   height: 50%;
   opacity: 0.1;
 }
+
+/* =============== */
+
 
 /* --------------------------- */
 /* Gallery  */
@@ -107,16 +112,16 @@ nav ul li a{
 }
 @media (max-width: 992px){
   footer{
-    bottom: 0;
+    /* bottom: 0;
     position: absolute;
-    width: 100%;
+    width: 100%; */
   }
   #root{
     min-height: 100vh;
     position: relative;
   }
   .plans{
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
   }
 
 }
@@ -135,3 +140,33 @@ nav ul li a{
 }
 
 /* =================================== */
+
+/* Center mode slick  */
+button.slick-next:before {
+  content: '→';
+  color: black;
+}
+button.slick-prev:before {
+  content: '←';
+  color: black;
+}
+.slick-slide img {
+  padding: 4px;
+}
+.sliderDiv::before{
+  content: "";
+  background-image: url('https://st2.depositphotos.com/3591429/7699/i/950/depositphotos_76994273-stock-photo-customer-service-support-concept.jpg');
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  opacity: 0.1;
+}
+
+/* ========================== */
+/* Services div  */
+.ServicesDiv{
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
