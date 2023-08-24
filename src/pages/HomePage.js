@@ -11,7 +11,6 @@ export default function HomePage() {
             <div className="row py-lg-5">
             <div className="col-lg-6 col-md-8 mx-auto">
                 <h2 className="fw-light" style={{fontFamily: 'Yatra One, cursive'}}>
-
                   Typewriter Effect
                 </h2>
                 <h2>Akash Ganga Welcomes You</h2>
@@ -31,7 +30,7 @@ export default function HomePage() {
     <AutoPlay/>
     <hr/>
     <Services2/>
-    <hr />
+    <hr/>
     <Services3 />
     </>
   )
